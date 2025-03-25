@@ -406,7 +406,7 @@ textarea::placeholder {
    position: relative;
 
 }
-.contact-form form input,
+.contact-form form,
 form textarea{
    width: 95%;
    display: block;
