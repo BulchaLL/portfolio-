@@ -235,7 +235,8 @@
 
         navlnk.forEach(lnk => {
             lnk.addEventListener("click", 
-                () => {
+                (event) => {
+                 event.preventDefault();
                     navbar.classList.remove("active"); 
                 }
             )
