@@ -227,10 +227,11 @@
      <script>
             const navbar = document.querySelector(".navbar ul");
             const menuIcon = document.querySelector(".bx-menu");
+            const navlnk = document.querySelectorAll(".navlnk");
             menuIcon.addEventListener("click", function() {
                 navbar.classList.toggle("active");
             });
-           const navlnk = document.querySelectorAll(".navlnk");
+         
 
         navlnk.forEach(lnk => {
             lnk.addEventListener("click", 
