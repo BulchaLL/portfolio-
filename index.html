@@ -238,8 +238,11 @@
                 (event) => {
                  event.preventDefault();
                     navbar.classList.remove("active"); 
+                 setTimeout(() => {
+                  window.location.href = lnk.href;
+                 }, 100);
                 }
-            )
+            );
           });
       document.addEventListener("click", function(event) {
           if (event.target.closest(".navbar") === null && event.target !== menuIcon) {
