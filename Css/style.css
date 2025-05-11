@@ -81,8 +81,8 @@ a:hover{
  p{
    font-size: 0.9rem;
     color: var(--text-color);
-      line-height: 1.45;
-      letter-spacing: 1px;
+      line-height: 2;
+      letter-spacing: 2px;
       padding: 20px 0;
  }
  button,.submit{
