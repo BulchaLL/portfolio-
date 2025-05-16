@@ -391,7 +391,7 @@ textarea::placeholder {
    transition: all .45s ease;
 }
 
-.gml,.street,.phone{
+.gml,.street,.phone,.github,.linkedin,.behance{
    display: flex;
    align-items: center;
    font-size: 25px;
@@ -441,7 +441,7 @@ form textarea{
    transform: scale(1.1);
    cursor: pointer;
 }
-.tg,.gml,.github,.linkedin,.behance{
+.tg,.gml,{
    display: flex;
 }
 .end{
