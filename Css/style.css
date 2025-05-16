@@ -260,7 +260,7 @@ h2,.main-text h2{
 .portfolio-content{
    padding-bottom: 80px;
    display: grid;
-   grid-template-columns: repeat(3, 1fr);
+   grid-template-columns: repeat(4, 1fr);
    align-items: center;
    gap: 1rem;
    margin-top: 2.5rem;
